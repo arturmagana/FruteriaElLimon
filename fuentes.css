@@ -1,0 +1,73 @@
+/*estilos para fuentes, tamanos, decoracion, etc*/
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+li{
+      color: black;
+      font-family: calibri
+      font-size: 10px
+}
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+    }
+
+
+    header img {
+        margin-right: 15px;
+        height: 55px; /* Ajuste de tamaño */
+    }
+
+    .container {
+        padding: 20px;
+    }
+    .product {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 10px;
+        margin: 10px 0;
+    }
+    .product img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    .product h2 {
+        text-align: center;
+        color: #333;
+    }
+    footer {
+        background-color: #4CAF50;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+    }
+    @media (max-width: 600px) {
+        header img {
+            height: 50px;
+        }
+        nav ul {
+            flex-direction: column;
+            align-items: center;
+        }
+        nav ul li {
+            margin: 5px 0;
+        }
+    }
